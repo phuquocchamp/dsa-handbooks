@@ -13,12 +13,24 @@ Give an array X[] of n integers, where some elements are zero and some elements 
 
 #### Solution 01: Two For Loop
 ```java
+public static int[] sol_01(int[] arr){
+    int capacity = arr.length;
 
+    for (int i = 0; i < capacity; i++) {
+        if (arr[i] == 0) {
+            for (int j = i; j < capacity - 1; j++) {
+                arr[j] = arr[j + 1];
+            }
+            arr[capacity - 1] = 0;
+            capacity--;
+            i--;
+        }
+    }
+    return arr;
+}
 ```
-Loop i from left to right:
-- if x[i] == 0 (When reach value 0):
-  - Loop j at index i and assign a x[j] = x[j + 1];  
-  - Assign x[n-1] = 0;
+##### Ý tưởng:  
+Duyệt mảng i đến khi gặp giá trị 0 thì chuyển dời các phần từ phía sau phần tử 0 hiện tại sáng trái một đơn vị. 
 
 Time Complexity: O(n^2).  
 Space Complexity: O(1). 
@@ -49,14 +61,12 @@ public static int[] sol_02(int[] arr) {
 
     }
 ```
-nonZeroIndex = 0;  
-current = 0;  
-While nonZeroIndex < Capacity:
-- Check if x[current] == 0 && x[nonZeroIndex] != 0:
-  - exchange x[current] to x[nonZeroIndex].
-- if(x[current] != 0):
-  - increase current & nonZeroIndex.
-- if(x[nonZeroIndex] == 0):
-  - increase nonZeroIndex
-Time Complexity: O(n).
+##### Ý tưởng:
+- Duyệt mảng đến khi gặp giá trị 0 thì đổi giá trị cho phần từ khác 0 gần nhất.
+Sử dụng 2 Pointers: 
+  - Xét trường hợp giá trị x[current] == 0 && x[nonZeroIndex] != 0 => đổi chỗ gía trị cho nhau.  
+  - Nếu x[current] != 0: Cập nhật current & nonZeroIndex.
+  - Nêu x[nonZeroIndex] == 0: Tăng nonZeroIndex;  
+
+Time Complexity: O(n).  
 Space Complexity: O(1).
