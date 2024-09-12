@@ -1,11 +1,18 @@
 package singlylinkedlist;
 
+import java.util.LinkedList;
+
 public class SinglyLinkedListImpl {
     public static void main(String[] args) {
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(4);
-        
+        SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
+        list.addFirst(10);
+        list.addFirst(20);
+        list.addLast(30);
+        System.out.println(list.removeFirst());
+        System.out.println(list.first());
+        System.out.println(list.last());
+        System.out.println(list.size());
+        System.out.println(list.isEmpty());
+
     }
 }
