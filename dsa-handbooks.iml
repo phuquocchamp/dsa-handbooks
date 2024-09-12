@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/leetcode/1_two_sum" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leetcode/2_add_two_numbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/linkedlist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ksvku" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
