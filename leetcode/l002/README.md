@@ -1,10 +1,6 @@
-### ls
+## ADD TWO NUMBERS - SOLUTION
 
-ls
-
-ADD TWO NUMBERS - SOLUTION
-
-[Add Two Numbers Link](https://leetcode.com/problems/add-two-numbers)
+[Add Two Numbers Link](https://leetcode.com/problems/add-two-numbers)  
 [Vietnamese LeetCode Solution](https://leetcode.com/problems/add-two-numbers/solutions/5838178/add-two-numbers-phuquocchamp-s-java-solution-vietnamese/)
 
 ### Approach
