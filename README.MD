@@ -29,7 +29,9 @@ Welcome to the **Data Structures & Algorithms (DSA)** repository! This project i
 
 ### 🗂️ Outline
 
-- **LeetCode**: Problem-solving and optimization techniques.
+- **LeetCode**:
+  - [L001 - TWO SUM](./leetcode/l001/README.MD)  
+  - [l002 - ADD TWO NUMBER](./leetcode/l002/README.MD)
 - **DSA**:
   - **[Linked List](./linkedlist/README.MD)**:
     - [Singly Linked List](./linkedlist/singlylinkedlist/README.MD)
