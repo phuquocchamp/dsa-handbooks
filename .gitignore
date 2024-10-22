@@ -4,3 +4,4 @@ __pycache__/
 *.class
 .idea/
 .out/
+leetcode/out/
