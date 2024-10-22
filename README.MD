@@ -22,24 +22,7 @@ Welcome to the **Data Structures & Algorithms (DSA)** repository! This project i
 - **C/C++** 💻
 - **Python** 🐍
 
-## 👤 Author
-
-**Hoang Tan Phu Quoc**  
-*aka [phuquocchamp](https://github.com/phuquocchamp)* 🚀
-
-### 🗂️ Outline
-
-- **LeetCode**:
-  - [L001 - TWO SUM](./leetcode/l001/README.MD)  
-  - [l002 - ADD TWO NUMBER](./leetcode/l002/README.MD)
-- **DSA**:
-  - **[Linked List](./linkedlist/README.MD)**:
-    - [Singly Linked List](./linkedlist/singlylinkedlist/README.MD)
-    - [Doubly Linked List](./linkedlist/doublylinkedlist)
-    - Circular Doubly Linked List
-
-
-### How To Compile & Run Code in Vscode
+### ✨ How To Compile & Run Code in VScode
 
 **Move to leetcode folder**
 ```bash
@@ -63,6 +46,22 @@ java -cp out l002.Solution
 ```
 - cp : classpath of compiled file.  
 - Remember using "." dot to specify ***Solution.class*** file when running code.  
+
+
+## 👤 Author
+
+**Hoang Tan Phu Quoc** *aka [phuquocchamp](https://github.com/phuquocchamp)* 🚀
+
+### 🗂️ Outline
+
+- **LeetCode**:
+  - [L001 - TWO SUM](./leetcode/l001/README.MD)  
+  - [l002 - ADD TWO NUMBER](./leetcode/l002/README.MD)
+- **DSA**:
+  - **[Linked List](./linkedlist/README.MD)**:
+    - [Singly Linked List](./linkedlist/singlylinkedlist/README.MD)
+    - [Doubly Linked List](./linkedlist/doublylinkedlist)
+    - Circular Doubly Linked List
 
 ---
 
