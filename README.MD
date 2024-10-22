@@ -56,8 +56,8 @@ java -cp out l002.Solution
 
 - **LeetCode**:
   - [L001 - TWO SUM](./leetcode/l001/README.MD)  
-  - [l002 - ADD TWO NUMBER](./leetcode/l002/README.MD)
-  - [l003 - LONGEST SUBSTRING WITHOUT REPEATING CHARACTERS](./leetcode/l003/README.MD)
+  - [L002 - ADD TWO NUMBER](./leetcode/l002/README.MD)
+  - [L003 - LONGEST SUBSTRING WITHOUT REPEATING CHARACTERS](./leetcode/l003/README.MD)
 - **DSA**:
   - **[Linked List](./linkedlist/README.MD)**:
     - [Singly Linked List](./linkedlist/singlylinkedlist/README.MD)
