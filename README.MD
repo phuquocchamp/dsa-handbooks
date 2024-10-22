@@ -38,6 +38,32 @@ Welcome to the **Data Structures & Algorithms (DSA)** repository! This project i
     - [Doubly Linked List](./linkedlist/doublylinkedlist)
     - Circular Doubly Linked List
 
+
+### How To Compile & Run Code in Vscode
+
+**Move to leetcode folder**
+```bash
+cd leetcode
+``` 
+
+**Create out folder - This file used to store .class file after compiling code solution**
+```bash
+mkdir out
+```
+
+**Compile Java Code (Using Java 17.0.12 LTS)**
+```bash
+javac -d out l002/Solution.java
+```
+- d : directory of compiling folder.  
+
+**Run code after compiling**
+```bash
+java -cp out l002.Solution
+```
+- cp : classpath of compiled file.  
+- Remember using "." dot to specify ***Solution.class*** file when running code.  
+
 ---
 
 Feel free to explore the repository, contribute, and use it as a comprehensive guide to strengthen your understanding of data structures and algorithms.
